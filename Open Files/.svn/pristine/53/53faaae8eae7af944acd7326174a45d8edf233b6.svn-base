@@ -1,0 +1,767 @@
+<?xml version = "1.0" encoding="UTF-8" standalone="yes"?>
+<VFPData xml:space="preserve">
+	<xsd:schema id="VFPData" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xsd:element name="VFPData" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="tcomast" minOccurs="0" maxOccurs="unbounded">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="compid" type="xsd:int"/>
+								<xsd:element name="co_name" minOccurs="0">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="50"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="add1" minOccurs="0">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="35"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="add2" minOccurs="0">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="35"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="add3" minOccurs="0">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="35"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="remark" minOccurs="0">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="2147483647"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="logo" minOccurs="0">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="60"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="dir_nm" minOccurs="0">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="60"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="itax_no" minOccurs="0">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="35"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="stax_no" minOccurs="0">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="35"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="cst_no" minOccurs="0">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="35"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="tds_no" minOccurs="0">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="35"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="phone" minOccurs="0">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="50"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="email" minOccurs="0">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="50"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="deci" minOccurs="0">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:decimal">
+											<xsd:totalDigits value="4"/>
+											<xsd:fractionDigits value="0"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="dir_bk" minOccurs="0">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="60"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="bk_dt" type="xsd:dateTime" minOccurs="0"/>
+								<xsd:element name="ac_bchk" type="xsd:boolean" minOccurs="0"/>
+								<xsd:element name="it_bchk" type="xsd:boolean" minOccurs="0"/>
+								<xsd:element name="grp_lv" minOccurs="0">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:decimal">
+											<xsd:totalDigits value="4"/>
+											<xsd:fractionDigits value="0"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="days" minOccurs="0">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:decimal">
+											<xsd:totalDigits value="4"/>
+											<xsd:fractionDigits value="0"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="sta_dt" type="xsd:dateTime" minOccurs="0"/>
+								<xsd:element name="end_dt" type="xsd:dateTime" minOccurs="0"/>
+								<xsd:element name="holi_day" minOccurs="0">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="60"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="ware_op" type="xsd:boolean" minOccurs="0"/>
+								<xsd:element name="allo_op" type="xsd:boolean" minOccurs="0"/>
+								<xsd:element name="inv_op" type="xsd:boolean" minOccurs="0"/>
+								<xsd:element name="prod_op" type="xsd:boolean" minOccurs="0"/>
+								<xsd:element name="so_op" type="xsd:boolean" minOccurs="0"/>
+								<xsd:element name="po_op" type="xsd:boolean" minOccurs="0"/>
+								<xsd:element name="sdc_op" type="xsd:boolean" minOccurs="0"/>
+								<xsd:element name="pdc_op" type="xsd:boolean" minOccurs="0"/>
+								<xsd:element name="acc_adj" type="xsd:boolean" minOccurs="0"/>
+								<xsd:element name="s_item" type="xsd:boolean" minOccurs="0"/>
+								<xsd:element name="p_item" type="xsd:boolean" minOccurs="0"/>
+								<xsd:element name="sexci_op" type="xsd:boolean" minOccurs="0"/>
+								<xsd:element name="pexci_op" type="xsd:boolean" minOccurs="0"/>
+								<xsd:element name="sstax_op" type="xsd:boolean" minOccurs="0"/>
+								<xsd:element name="pstax_op" type="xsd:boolean" minOccurs="0"/>
+								<xsd:element name="sgro_op" type="xsd:boolean" minOccurs="0"/>
+								<xsd:element name="pgro_op" type="xsd:boolean" minOccurs="0"/>
+								<xsd:element name="snet_op" type="xsd:boolean" minOccurs="0"/>
+								<xsd:element name="pnet_op" type="xsd:boolean" minOccurs="0"/>
+								<xsd:element name="ssamt_op" type="xsd:boolean" minOccurs="0"/>
+								<xsd:element name="seamt_op" type="xsd:boolean" minOccurs="0"/>
+								<xsd:element name="srate_op" type="xsd:boolean" minOccurs="0"/>
+								<xsd:element name="prate_op" type="xsd:boolean" minOccurs="0"/>
+								<xsd:element name="sform_op" type="xsd:boolean" minOccurs="0"/>
+								<xsd:element name="pform_op" type="xsd:boolean" minOccurs="0"/>
+								<xsd:element name="sittax_op" type="xsd:boolean" minOccurs="0"/>
+								<xsd:element name="pittax_op" type="xsd:boolean" minOccurs="0"/>
+								<xsd:element name="dept_op" type="xsd:boolean" minOccurs="0"/>
+								<xsd:element name="s_post" type="xsd:boolean" minOccurs="0"/>
+								<xsd:element name="cate_op" type="xsd:boolean" minOccurs="0"/>
+								<xsd:element name="rights" minOccurs="0">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="50"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="multi_date" type="xsd:dateTime" minOccurs="0"/>
+								<xsd:element name="multiyear" type="xsd:boolean" minOccurs="0"/>
+								<xsd:element name="enddir" minOccurs="0">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="40"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="sac_round" minOccurs="0">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="50"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="pac_round" minOccurs="0">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="50"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="vcolor" minOccurs="0">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="10"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="mirror" type="xsd:dateTime" minOccurs="0"/>
+								<xsd:element name="bill_inven" type="xsd:boolean" minOccurs="0"/>
+								<xsd:element name="neg_itbal" type="xsd:boolean" minOccurs="0"/>
+								<xsd:element name="rem_user" minOccurs="0">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="30"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="it_disp" type="xsd:boolean" minOccurs="0"/>
+								<xsd:element name="it_stock" type="xsd:boolean" minOccurs="0"/>
+								<xsd:element name="it_rate" type="xsd:boolean" minOccurs="0"/>
+								<xsd:element name="it_ware" type="xsd:boolean" minOccurs="0"/>
+								<xsd:element name="it_appl" minOccurs="0">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="80"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="fax" minOccurs="0">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="50"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="website" minOccurs="0">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="50"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="impdate" type="xsd:dateTime" minOccurs="0"/>
+								<xsd:element name="expdate" type="xsd:dateTime" minOccurs="0"/>
+								<xsd:element name="imptime" minOccurs="0">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="8"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="exptime" minOccurs="0">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="8"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="imppath" minOccurs="0">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="50"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="exppath" minOccurs="0">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="50"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="impmast" minOccurs="0">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="10"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="expmast" minOccurs="0">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="10"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="sinet_op" type="xsd:boolean" minOccurs="0"/>
+								<xsd:element name="pinet_op" type="xsd:boolean" minOccurs="0"/>
+								<xsd:element name="dir_zip" minOccurs="0">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="60"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="it_fields" minOccurs="0">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="60"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="bk_image" type="xsd:boolean" minOccurs="0"/>
+								<xsd:element name="tzip" minOccurs="0">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:decimal">
+											<xsd:totalDigits value="3"/>
+											<xsd:fractionDigits value="0"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="trackuser" type="xsd:boolean" minOccurs="0"/>
+								<xsd:element name="expzname" minOccurs="0">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="50"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="impzname" minOccurs="0">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="50"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="dbname" minOccurs="0">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="20"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="user_name" minOccurs="0">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="30"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="user_time" type="xsd:dateTime" minOccurs="0"/>
+								<xsd:element name="backupdrive" minOccurs="0">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="250"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="frombackup" minOccurs="0">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="50"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="foldername" minOccurs="0">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="50"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="import" type="xsd:boolean" minOccurs="0"/>
+								<xsd:element name="autoersend" minOccurs="0">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="1"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="mailsvrnm" minOccurs="0">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="250"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="mailusernm" minOccurs="0">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="50"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="mailpswd" minOccurs="0">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="50"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="servictype" minOccurs="0">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="50"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="ratedeci" minOccurs="0">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:decimal">
+											<xsd:totalDigits value="4"/>
+											<xsd:fractionDigits value="0"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="is1key" type="xsd:boolean" minOccurs="0"/>
+								<xsd:element name="currency" minOccurs="0">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="5"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="fcsnet_op" type="xsd:boolean" minOccurs="0"/>
+								<xsd:element name="fcsinet_op" type="xsd:boolean" minOccurs="0"/>
+								<xsd:element name="fcpnet_op" type="xsd:boolean" minOccurs="0"/>
+								<xsd:element name="fcpinet_op" type="xsd:boolean" minOccurs="0"/>
+								<xsd:element name="fcssamt_op" type="xsd:boolean" minOccurs="0"/>
+								<xsd:element name="fcratediff" minOccurs="0">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="150"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="uom_no" minOccurs="0">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:decimal">
+											<xsd:totalDigits value="4"/>
+											<xsd:fractionDigits value="0"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="uom_desc" minOccurs="0">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="250"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="area" minOccurs="0">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="12"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="zone" minOccurs="0">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="12"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="city" minOccurs="0">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="22"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="zip" minOccurs="0">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="7"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="state" minOccurs="0">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="30"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="country" minOccurs="0">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="30"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="mcur_" type="xsd:boolean" minOccurs="0"/>
+								<xsd:element name="com_type" minOccurs="0">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="1"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="coformdt" minOccurs="0">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="25"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="punchln" minOccurs="0">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="100"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="shname" minOccurs="0">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="50"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="vatstates" minOccurs="0">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="2147483647"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="stdcd" minOccurs="0">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="5"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="branch" minOccurs="0">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="75"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="passroute" minOccurs="0">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:base64Binary">
+											<xsd:maxLength value="2147483647"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="prodcode" minOccurs="0">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:base64Binary">
+											<xsd:maxLength value="2147483647"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="passroute1" minOccurs="0">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:base64Binary">
+											<xsd:maxLength value="2147483647"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="bak_negflist" minOccurs="0">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="250"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="sms_allowed" type="xsd:boolean" minOccurs="0"/>
+								<xsd:element name="gateway" minOccurs="0">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="60"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="gatewayuserid" minOccurs="0">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="30"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="gatewaypwd" minOccurs="0">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="30"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="senderid" minOccurs="0">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="10"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="ie_loccode" minOccurs="0">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="3"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="mailname" minOccurs="0">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:string">
+											<xsd:maxLength value="250"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="inv_length" minOccurs="0">
+									<xsd:simpleType>
+										<xsd:restriction base="xsd:decimal">
+											<xsd:totalDigits value="4"/>
+											<xsd:fractionDigits value="0"/>
+										</xsd:restriction>
+									</xsd:simpleType>
+								</xsd:element>
+								<xsd:element name="acc_crdys" type="xsd:boolean" minOccurs="0"/>
+							</xsd:sequence>
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+				<xsd:anyAttribute namespace="http://www.w3.org/XML/1998/namespace" processContents="lax"/>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+	<tcomast>
+		<compid>19</compid>
+		<co_name>Demo company                                      </co_name>
+		<add1>                                   </add1>
+		<add2>                                   </add2>
+		<add3>                                   </add3>
+		<remark/>
+		<logo>                                                            </logo>
+		<dir_nm>\VUDYOGSDK\D011213\                                         </dir_nm>
+		<itax_no>                                   </itax_no>
+		<stax_no>                                   </stax_no>
+		<cst_no>                                   </cst_no>
+		<tds_no>                                   </tds_no>
+		<phone>                                                  </phone>
+		<email>                                                  </email>
+		<deci>2</deci>
+		<dir_bk>                                                            </dir_bk>
+		<bk_dt>1900-01-01T00:00:00</bk_dt>
+		<ac_bchk>true</ac_bchk>
+		<it_bchk>true</it_bchk>
+		<grp_lv>5</grp_lv>
+		<days>1</days>
+		<sta_dt>2012-04-01T00:00:00</sta_dt>
+		<end_dt>2013-03-31T00:00:00</end_dt>
+		<holi_day>Su                                                          </holi_day>
+		<ware_op>true</ware_op>
+		<allo_op>true</allo_op>
+		<inv_op>true</inv_op>
+		<prod_op>true</prod_op>
+		<so_op>false</so_op>
+		<po_op>false</po_op>
+		<sdc_op>true</sdc_op>
+		<pdc_op>true</pdc_op>
+		<acc_adj>false</acc_adj>
+		<s_item>false</s_item>
+		<p_item>false</p_item>
+		<sexci_op>false</sexci_op>
+		<pexci_op>false</pexci_op>
+		<sstax_op>true</sstax_op>
+		<pstax_op>false</pstax_op>
+		<sgro_op>false</sgro_op>
+		<pgro_op>false</pgro_op>
+		<snet_op>false</snet_op>
+		<pnet_op>false</pnet_op>
+		<ssamt_op>false</ssamt_op>
+		<seamt_op>false</seamt_op>
+		<srate_op>true</srate_op>
+		<prate_op>true</prate_op>
+		<sform_op>false</sform_op>
+		<pform_op>false</pform_op>
+		<sittax_op>false</sittax_op>
+		<pittax_op>false</pittax_op>
+		<dept_op>false</dept_op>
+		<s_post>false</s_post>
+		<cate_op>false</cate_op>
+		<rights>                                                  </rights>
+		<multi_date>1900-01-01T00:00:00</multi_date>
+		<multiyear>false</multiyear>
+		<enddir>                                        </enddir>
+		<sac_round>"SALES"                                           </sac_round>
+		<pac_round>"PURCHASES"                                       </pac_round>
+		<vcolor>15066597  </vcolor>
+		<mirror>1900-01-01T00:00:00</mirror>
+		<bill_inven>false</bill_inven>
+		<neg_itbal>false</neg_itbal>
+		<rem_user>                              </rem_user>
+		<it_disp>false</it_disp>
+		<it_stock>false</it_stock>
+		<it_rate>false</it_rate>
+		<it_ware>false</it_ware>
+		<it_appl>                                                                                </it_appl>
+		<fax>                                                  </fax>
+		<website>                                                  </website>
+		<impdate>1900-01-01T00:00:00</impdate>
+		<expdate>1900-01-01T00:00:00</expdate>
+		<imptime>        </imptime>
+		<exptime>        </exptime>
+		<imppath>                                                  </imppath>
+		<exppath>                                                  </exppath>
+		<impmast>          </impmast>
+		<expmast>          </expmast>
+		<sinet_op>false</sinet_op>
+		<pinet_op>false</pinet_op>
+		<dir_zip>                                                            </dir_zip>
+		<it_fields>                                                            </it_fields>
+		<bk_image>false</bk_image>
+		<tzip>0</tzip>
+		<trackuser>false</trackuser>
+		<expzname>                                                  </expzname>
+		<impzname>                                                  </impzname>
+		<dbname>D011213             </dbname>
+		<user_name>ADMIN                         </user_name>
+		<user_time>1900-01-01T00:00:00</user_time>
+		<backupdrive>                                                                                                                                                                                                                                                          </backupdrive>
+		<frombackup>                                                  </frombackup>
+		<foldername>D011213                                           </foldername>
+		<import>false</import>
+		<autoersend>Y</autoersend>
+		<mailsvrnm>                                                                                                                                                                                                                                                          </mailsvrnm>
+		<mailusernm>                                                  </mailusernm>
+		<mailpswd>                                                  </mailpswd>
+		<servictype>                                                  </servictype>
+		<ratedeci>2</ratedeci>
+		<is1key>false</is1key>
+		<currency>     </currency>
+		<fcsnet_op>false</fcsnet_op>
+		<fcsinet_op>false</fcsinet_op>
+		<fcpnet_op>false</fcpnet_op>
+		<fcpinet_op>false</fcpinet_op>
+		<fcssamt_op>false</fcssamt_op>
+		<fcratediff>                                                                                                                                                      </fcratediff>
+		<uom_no>0</uom_no>
+		<uom_desc>                                                                                                                                                                                                                                                          </uom_desc>
+		<area>            </area>
+		<zone>            </zone>
+		<city>                      </city>
+		<zip>       </zip>
+		<state>                              </state>
+		<country>                              </country>
+		<mcur_>false</mcur_>
+		<com_type>M</com_type>
+		<coformdt>                         </coformdt>
+		<punchln>Udyog India's No. 1 Excise Software                                                                 </punchln>
+		<shname>                                                  </shname>
+		<vatstates/>
+		<stdcd>     </stdcd>
+		<branch>                                                                           </branch>
+		<passroute>7OrK8Mbs6src6Ozq3uTI7OrS3Ozs6ubK5Ozq6Mjm7Org5N7s6ujK8A==</passroute>
+		<prodcode>ZMPKhH9A6ria</prodcode>
+		<passroute1>yvDazM7OytxYwsbG6M7K3Fje5Mjg5N7OytxY0tzsytzozsrcWObK5OjC8M7K3FjoyObOytxY7MLozsrcWOzC6NTQWOzC6NrQWMrw6OTIzsrc</passroute1>
+		<bak_negflist>                                                                                                                                                                                                                                                          </bak_negflist>
+		<sms_allowed>false</sms_allowed>
+		<gateway>                                                            </gateway>
+		<gatewayuserid>                              </gatewayuserid>
+		<gatewaypwd>                              </gatewaypwd>
+		<senderid>          </senderid>
+		<ie_loccode>   </ie_loccode>
+		<mailname>                                                                                                                                                                                                                                                          </mailname>
+		<inv_length>0</inv_length>
+		<acc_crdys>false</acc_crdys>
+	</tcomast>
+</VFPData>
